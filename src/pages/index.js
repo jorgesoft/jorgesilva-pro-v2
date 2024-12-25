@@ -10,9 +10,18 @@ const IndexPage = () => {
           <div className="row align-items-center">
             {/* Text Section */}
             <div className="col-md-6 text-center text-md-start">
-              <h1 className="text-body">Jorge Silva</h1>
+              <h1 className="text-body">Jorge E. Carrillo Silva</h1>
               <p className="lead">
-                Senior Network Security Analyst | CISSP-Certified | DevSecOps Expert
+                Cybersecurity, Cloud and DevOps.
+              </p>
+              <ul>
+                <li>Cybersecurity and cloud professional with 7+ years of experience.</li>
+                <li>Business-focused and skilled in solving complex problems.</li>
+                <li>Expert in leveraging open-source solutions.</li>
+                <li>Visit my About Me page to learn more.</li>
+              </ul>
+              <p className="lead">
+              Connect with me below for inquiries or to say hi!
               </p>
               <div className="mt-3">
                 {/* Contact Icons */}
