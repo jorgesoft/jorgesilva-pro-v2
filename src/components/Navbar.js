@@ -26,7 +26,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          My Company
+          jorgesilva.pro
         </Link>
         <button
           className="navbar-toggler"
