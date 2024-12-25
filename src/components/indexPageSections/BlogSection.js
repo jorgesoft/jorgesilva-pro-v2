@@ -6,9 +6,9 @@ const BlogSection = () => {
       <div className="container text-center">
         <h2 className="text-body">My Blog</h2>
         <p className="text-muted">
-          Explore my thoughts on cybersecurity, DevSecOps, and cloud security.
+          A place where I write guides, thoughts, and things that learn.
         </p>
-        <a href="/blog" className="btn btn-primary btn-lg">
+        <a href="/blog" className="btn btn-primary">
           Read My Blog
         </a>
       </div>
