@@ -24,8 +24,8 @@ const BlogIndex = ({ data }) => {
     <Layout>
       <div className="container mt-5">
         <header className="mb-5 text-center">
-          <h1>All Blog Posts</h1>
-          <p className="lead">Read the latest updates and articles below!</p>
+          <h1 className="text-body">All Blog Posts</h1>
+          <p className="lead text-body">Read the latest updates and articles below!</p>
         </header>
         <div className="row">
           {posts.map((post) => {
