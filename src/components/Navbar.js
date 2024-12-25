@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "gatsby";
-import "bootswatch/dist/lux/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css"; // Include Bootstrap Icons
 
 const Navbar = () => {
