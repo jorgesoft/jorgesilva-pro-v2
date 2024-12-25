@@ -17,3 +17,18 @@ body[data-bs-theme="dark"] .blog-post h5,
 body[data-bs-theme="dark"] .blog-post h6 {
   color: var(--bs-body-color, #fff); /* Default Bootstrap light body color */
 }
+
+/* Footer always down */
+/* Ensure the root containers are flex containers */
+html, body, #___gatsby, #gatsby-focus-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Allow main content to grow and push the footer down */
+  main {
+    flex: 1;
+  }
+  
+  
