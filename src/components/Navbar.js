@@ -26,7 +26,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          jorgesilva.pro
+          JS.PRO
         </Link>
         <button
           className="navbar-toggler"
@@ -53,7 +53,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/about">
-                About
+                About Me
               </Link>
             </li>
             <li className="nav-item dropdown">
