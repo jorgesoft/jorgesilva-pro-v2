@@ -39,3 +39,16 @@ main {
   justify-content: center; /* Horizontally center content */
   overflow: hidden; /* Ensure no unwanted overflow */
 }
+
+#what-i-do {
+  padding-top: 50px; 
+  margin-top: -50px; 
+  padding-bottom: 20px;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #ccc, transparent);
+  margin: 2rem 0; /* Adjust spacing */
+}

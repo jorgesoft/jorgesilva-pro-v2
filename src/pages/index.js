@@ -8,7 +8,9 @@ const IndexPage = () => {
   return (
     <Layout>
       <HeroSection />
+      <div className="divider"></div>
       <WhatIDoSection />
+      <div className="divider"></div>
       <BlogSection />
     </Layout>
   );
