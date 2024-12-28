@@ -12,12 +12,12 @@ module.exports = {
     title: `Cybersecurity, Cloud and DevOps.`,
     author: {
       name: `Jorge Silva`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      summary: `who lives and works in New York securring useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Jorge E. Carrillo Silva's personal website/blog.`,
+    siteUrl: `https://jorgesilva.pro/`,
     social: {
-      twitter: `kylemathews`,
+      linkedin: `jorgeecsilva`,
     },
   },
   plugins: [
