@@ -26,29 +26,31 @@ const BlogSection = () => {
 
   return (
     <div id="my-blog" className="py-5">
-      <div className="container text-center">
-        <h2 className="text-body">My Blog</h2>
-        <p className="text-muted">
+      <div className="container">
+        {/* Section Title */}
+        <h2 className="text-center text-body">My Blog</h2>
+        <p className="text-center text-muted">
           A place where I write guides, thoughts, and things I learn.
         </p>
 
         {/* Random Blog Post Suggestion */}
         {randomPost && (
-          <div className="mt-3">
+          <div className="mt-4 text-center">
             <p className="small text-body">
               Check out:{" "}
-              <Link to={randomPost.fields.slug} className="text-body">
+              <Link to={randomPost.fields.slug} className="text-body fw-bold">
                 {randomPost.frontmatter.title}
               </Link>
             </p>
           </div>
         )}
 
-        {/* Link to Blog Page */}
-        
-        <Link to="/blog" className="btn btn-primary"> 
-          Read My Blog
-        </Link>
+        {/* Button to Blog Page */}
+        <div className="text-center mt-4">
+          <Link to="/blog" className="btn btn-primary btn-lg">
+            Read My Blog
+          </Link>
+        </div>
       </div>
     </div>
   );
