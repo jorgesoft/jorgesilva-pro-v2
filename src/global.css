@@ -52,3 +52,11 @@ main {
   background: linear-gradient(to right, transparent, #ccc, transparent);
   margin: 2rem 0; /* Adjust spacing */
 }
+
+/* Disable arrows in small screens */
+@media (max-width: 768px) { /* Adjust the max-width for your breakpoint */
+  .icon-clickable { /* Add this class to the clickable icons */
+    pointer-events: none; /* Disable all interactions */
+    cursor: default; /* Change cursor to indicate no interaction */
+  }
+}

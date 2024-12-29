@@ -54,7 +54,7 @@ const HeroSection = () => {
 
           {/* Scroll Indicator */}
           <div className="text-center mt-5">
-            <a href="#what-i-do" className="text-decoration-none">
+            <a href="#what-i-do" className="text-decoration-none icon-clickable">
               <i className="bi bi-chevron-down" style={{ fontSize: "2rem" }}></i>
             </a>
           </div>
