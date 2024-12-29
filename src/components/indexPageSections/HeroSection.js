@@ -1,4 +1,5 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
 const HeroSection = () => {
   return (
@@ -43,12 +44,13 @@ const HeroSection = () => {
           </div>
 
           {/* Image Section */}
-          <div className="col-md-6 text-center">
-            <img
-              src="/1728926179673.jpeg"
+          <div className="col-md-6 text-center mt-4 mt-md-0">
+            <StaticImage
+              src="../../images/profile-pic.png" // Adjust the path to the image location
               alt="Jorge Silva"
               className="img-fluid"
               style={{ maxWidth: "300px" }}
+              placeholder="blurred" // Optional: Adds a blurred placeholder while the image loads
             />
           </div>
 
