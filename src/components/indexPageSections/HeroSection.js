@@ -9,10 +9,6 @@ const HeroSection = () => {
           <div className="col-md-6 text-center text-md-start">
             <h1 className="text-body">Jorge E. Carrillo Silva</h1>
             <p className="lead">Cybersecurity, Cloud, and DevOps.</p>
-            <p className="lead">
-              Visit my <a href="/about" aria-label="About me">About page</a> to learn more about me.<br/>
-              Connect with me below for inquiries or to say hi:
-            </p>
             <div className="mt-3">
               {/* Contact Icons */}
               <a

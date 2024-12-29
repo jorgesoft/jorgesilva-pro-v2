@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "gatsby";
 
 const WhatIDoSection = () => {
   const features = [
     {
       title: "Cybersecurity",
       icon: <i className="bi bi-file-lock"></i>,
-      description: "Securing digital assets and protecting against cyber threats.",
+      description: "Securing information systems and protecting against cyber threats.",
     },
     {
       title: "Cloud",
@@ -15,17 +16,18 @@ const WhatIDoSection = () => {
     {
       title: "DevOps",
       icon: <i className="bi bi-code-slash"></i>,
-      description: "Streamlining development and deployment workflows.",
+      description: "Streamlining development and deployment workflows with CI/CD and GitOps.",
     },
     {
-      title: "Entrepreneurship",
+      title: "Innovation ",
       icon: <i className="bi bi-rocket-takeoff"></i>,
-      description: "Building innovative solutions and empowering businesses.",
+      description: "Transforming complex challenges into opportunities with advanced technology.",
     },
   ];
 
   return (
-    <div id="what-i-do" className="container my-5">
+  <div id="what-i-do" className="d-flex align-items-center" style={{ height: "100vh"}}>
+    <div className="container">
       <h2 className="text-center text-body">What I Do</h2>
       <p className="text-center text-muted">
         I have wide range of skills, including (but not limited to):
@@ -53,8 +55,27 @@ const WhatIDoSection = () => {
           </div>
         ))}
       </div>
+      {/* Closing Statement */}
+      <div className="text-center">
+        <br></br>
+        <p className="lead">
+            For more details about my background and expertise, check out my{" "}
+            <Link to="/about" className="text-body">
+              About Me page
+            </Link>.
+          </p>
+      </div>
+
+      {/* Scroll Indicator */}
+      <div className="text-center mt-5">
+        <a href="#my-blog" className="text-decoration-none">
+          <i className="bi bi-chevron-down" style={{ fontSize: "2rem" }}></i>
+        </a>
+      </div>
+
     </div>
-  );
+  </div>
+);
 };
 
 export default WhatIDoSection;
