@@ -16,17 +16,18 @@ const Navbar = () => {
     }
   }, []);
 
-  const setThemeValue = (newTheme) => {
+  const toggleTheme = () => {
+    const newTheme = theme === "light" ? "dark" : "light";
     setTheme(newTheme);
     localStorage.setItem("theme", newTheme);
     document.body.setAttribute("data-bs-theme", newTheme);
   };
 
   return (
-    <nav className="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <nav className="navbar navbar-expand-lg bg-primary sticky-top" data-bs-theme="dark">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          JS.PRO
+          jorgesilva.pro
         </Link>
         <button
           className="navbar-toggler"
@@ -42,11 +43,6 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/">
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
               <Link className="nav-link" to="/blog">
                 Blog
               </Link>
@@ -56,52 +52,24 @@ const Navbar = () => {
                 About Me
               </Link>
             </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle d-flex align-items-center"
-                href="#"
-                id="theme-menu"
-                aria-expanded="false"
-                data-bs-toggle="dropdown"
-                data-bs-display="static"
-                aria-label="Toggle theme"
-              >
-                <i className="bi bi-circle-half"></i>
-                <span className="d-lg-none ms-2">Toggle Theme</span>
-              </a>
-              <ul
-                className="dropdown-menu dropdown-menu-end"
-                aria-labelledby="theme-menu"
-              >
-                <li>
-                  <button
-                    type="button"
-                    className={`dropdown-item d-flex align-items-center ${
-                      theme === "light" ? "active" : ""
+            <li className="nav-item d-flex align-items-center">
+              <div className="form-check form-switch">
+                <input
+                  className="form-check-input"
+                  type="checkbox"
+                  role="switch"
+                  id="themeSwitch"
+                  checked={theme === "dark"}
+                  onChange={toggleTheme}
+                />
+                <label className="form-check-label" htmlFor="themeSwitch">
+                  <i
+                    className={`bi ${
+                      theme === "dark" ? "bi-moon-stars-fill" : "bi-sun-fill"
                     }`}
-                    data-bs-theme-value="light"
-                    aria-pressed={theme === "light"}
-                    onClick={() => setThemeValue("light")}
-                  >
-                    <i className="bi bi-sun-fill"></i>
-                    <span className="ms-2">Light</span>
-                  </button>
-                </li>
-                <li>
-                  <button
-                    type="button"
-                    className={`dropdown-item d-flex align-items-center ${
-                      theme === "dark" ? "active" : ""
-                    }`}
-                    data-bs-theme-value="dark"
-                    aria-pressed={theme === "dark"}
-                    onClick={() => setThemeValue("dark")}
-                  >
-                    <i className="bi bi-moon-stars-fill"></i>
-                    <span className="ms-2">Dark</span>
-                  </button>
-                </li>
-              </ul>
+                  ></i>
+                </label>
+              </div>
             </li>
           </ul>
         </div>
