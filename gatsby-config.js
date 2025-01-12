@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Cybersecurity, Cloud and DevOps.`,
+    title: `jorgesilva.pro`,
     author: {
       name: `Jorge Silva`,
       summary: `CISSP.`,
@@ -118,7 +118,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `static/favicon-32x32.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
