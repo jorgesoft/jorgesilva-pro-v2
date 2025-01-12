@@ -35,7 +35,15 @@ const Footer = () => {
           </a>
         </div>
         <p className="text-muted mt-3 mb-0">
-          © {new Date().getFullYear()} Jorge Silva. All rights reserved.
+          {new Date().getFullYear()} jorgesilva.pro.{" "}
+          <a
+            href="https://github.com/jorgesoft/jorgesilva-pro-v2"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted"
+          >
+            View Source on GitHub
+          </a>
         </p>
       </div>
     </footer>

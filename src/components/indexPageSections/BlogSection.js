@@ -47,7 +47,7 @@ const BlogSection = () => {
 
         {/* Button to Blog Page */}
         <div className="text-center mt-4">
-          <Link to="/blog" className="btn btn-primary btn-lg">
+          <Link to="/blog" className="btn btn-primary">
             Read My Blog
           </Link>
         </div>

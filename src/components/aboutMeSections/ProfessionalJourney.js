@@ -11,28 +11,28 @@ const ProfessionalJourney = () => {
             year: "2016",
             title: "Discovering Enterprise Technology",
             description:
-              "My journey into technology began in 2016. Following tech news sparked my curiosity about how systems work, leading me to explore computing, networks, and automation in my free time.",
+              "My journey into technology began in 2016. Following tech news sparked my curiosity about how systems work, leading me to explore computing, networks, and automation with Python.",
           },
           {
             year: "2018",
             title: "Help Desk Technician, Midtown Manhattan",
             description:
-              "I transitioned into IT as a Help Desk Technician in Midtown Manhattan, where I worked with Active Directory, Cisco Networks, AWS, and Azure.",
-          },
-          {
-            year: "2019",
-            title: "Cloud Operations Specialist — Logicworks",
-            description:
-              "Joined Logicworks as a Cloud Operations Specialist, managing cloud environments and automating infrastructure.",
+              "I transitioned into IT as a Help Desk Technician for a small e-commerce company in Midtown Manhattan, where I worked with Active Directory, Cisco Networks, AWS, and Azure.",
           },
           {
             year: "2020",
-            title: "SRE Consultant — Launch CG",
+            title: "Cloud Operations Specialist — Logicworks",
             description:
-              "Focused on DevOps and cloud infrastructure as a Site Reliability Engineering Consultant at Launch CG.",
+              "Joined Logicworks as a Cloud Operations Specialist, managing and maintaining cloud environments for multiple clients.",
           },
           {
             year: "2021",
+            title: "SRE Consultant — Launch CG",
+            description:
+              "Focused on IaC, CI/CD and vulnerability management as a Site Reliability Engineering Consultant at Launch CG.",
+          },
+          {
+            year: "2022",
             title: "BS in Cloud Computing — WGU",
             description:
               "Completed a Bachelor's in Cloud Computing at Western Governors University.",

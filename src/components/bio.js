@@ -36,7 +36,7 @@ const Bio = () => {
         className="bio-avatar"
         layout="fixed"
         formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.png"
+        src="../images/IMG_9773.jpg"
         width={50}
         height={50}
         quality={95}
@@ -44,7 +44,7 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
+          Written by <strong>{author.name}</strong>, {author?.summary || null}
           {` `}
           <a href={`https://www.linkedin.com/in/${social?.linkedin || ``}`}>
             Connect with me in LinkedIn.

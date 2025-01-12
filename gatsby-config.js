@@ -12,7 +12,7 @@ module.exports = {
     title: `Cybersecurity, Cloud and DevOps.`,
     author: {
       name: `Jorge Silva`,
-      summary: `who lives and works in New York securring useful things.`,
+      summary: `CISSP.`,
     },
     description: `Jorge E. Carrillo Silva's personal website/blog.`,
     siteUrl: `https://jorgesilva.pro/`,

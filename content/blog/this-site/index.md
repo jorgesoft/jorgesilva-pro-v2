@@ -1,6 +1,6 @@
 ---
 title: How I Built this Site
-date: "2015-05-01T22:12:03.284Z"
+date: "2025-01-12T22:12:03.284Z"
 description: "A guide about how I made this website with Gatsby/React."
 featuredImage: "./cloud-and-computer.webp"
 ---

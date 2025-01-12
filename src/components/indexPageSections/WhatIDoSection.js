@@ -27,11 +27,15 @@ const WhatIDoSection = () => {
   ];
 
   return (
-    <div id="what-i-do" className="d-flex align-items-center py-5">
+    <div
+      id="what-i-do"
+      className="d-flex align-items-center py-5"
+      style={{ marginTop: "2rem" }}  // Increased Top Padding
+    >
       <div className="container">
         {/* Section Title */}
-        <h2 className="text-center text-body">What I Do</h2>
-        <p className="text-center text-muted">
+        <h2 className="text-center text-body mb-4">What I Do</h2>
+        <p className="text-center text-muted mb-5">
           I have a wide range of skills, including (but not limited to):
         </p>
 
@@ -73,7 +77,7 @@ const WhatIDoSection = () => {
         {/* Scroll Indicator */}
         <div className="text-center mt-5">
           <a href="#my-blog" className="text-decoration-none icon-clickable">
-            <i className="bi bi-chevron-down" style={{ fontSize: "2rem" }}></i>
+            <i className="bi bi-chevron-double-down" style={{ fontSize: "2rem" }}></i>
           </a>
         </div>
       </div>
