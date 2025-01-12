@@ -1,7 +1,14 @@
 import React from "react";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import { Link } from "gatsby";
+import profilePic from "../images/IMG_9773.jpg";
+import cissp from "../images/certs/cissp.png";
+import ccsk from "../images/certs/ccsk.png";
+import cka from "../images/certs/cka.png";
+import awsSysOps from "../images/certs/awsSysOps.png";
+import azureAdmin from "../images/certs/azureAdmin.png";
+import gcpEngineer from "../images/certs/gcpEngineer.png";
+
 
 const AboutPage = () => {
   return (
@@ -12,9 +19,9 @@ const AboutPage = () => {
           {/* Image Section */}
           <div className="col-md-5 text-center">
             <img
-              src="/profile.jpg"  // Replace with your actual image path
+              src={profilePic}  // Replace with your actual image path
               alt="Jorge Eduardo Carrillo Silva"
-              className="img-fluid rounded-circle shadow-sm"
+              className="img-fluid shadow-sm"
               style={{ maxWidth: "300px" }}
             />
           </div>
@@ -23,10 +30,10 @@ const AboutPage = () => {
           <div className="col-md-7">
             <h1 className="text-body">Learn about me.</h1>
             <p className="lead">
-              I'm a passionate cybersecurity and cloud professional with over 7 years of experience in network security, DevSecOps, and open-source solutions. I lead security operations and help businesses build secure, reliable systems.
+              I'm a passionate cybersecurity and cloud professional, leading security operations and help businesses build secure, reliable systems.
             </p>
             <p>
-              Beyond my professional life, I’m deeply enthusiastic about technology and coding. I love experimenting with new frameworks, developing security tools, and automating workflows. Outside of tech, you can often find me playing guitar, exploring museums, or reading about history and science.
+              Beyond my professional life, I’m deeply enthusiastic about consumer technology and coding. I love experimenting with new frameworks and open source software. Outside of tech, you can often find me playing guitar, exploring museums, or reading about history and science.
             </p>
           </div>
         </div>
@@ -129,12 +136,12 @@ const AboutPage = () => {
           <div className="row text-center">
             {/* Certification Images */}
             {[
-              { src: "/certs/cissp.png", alt: "CISSP" },
-              { src: "/certs/ccsk.png", alt: "CCSK" },
-              { src: "/certs/cka.png", alt: "CKA" },
-              { src: "/certs/aws-sysops.png", alt: "AWS SysOps" },
-              { src: "/certs/azure-admin.png", alt: "Azure Admin" },
-              { src: "/certs/gcp-engineer.png", alt: "GCP Engineer" },
+              { src: cissp, alt: "CISSP" },
+              { src: ccsk, alt: "CCSK" },
+              { src: cka, alt: "CKA" },
+              { src: awsSysOps, alt: "AWS SysOps" },
+              { src: azureAdmin, alt: "Azure Admin" },
+              { src: gcpEngineer, alt: "GCP Engineer" },
             ].map((cert, index) => (
               <div key={index} className="col-md-4 col-lg-2 mb-4">
                 <img
