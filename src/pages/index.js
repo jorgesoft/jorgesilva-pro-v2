@@ -6,7 +6,7 @@ import BlogSection from "../components/indexPageSections/BlogSection";
 import Seo from "../components/seo";
 
 export const Head = () => (
-  <Seo title="Home" />
+  <Seo title="Cybersecurity, Cloud, DevOps" />
 );
 
 const IndexPage = () => {
