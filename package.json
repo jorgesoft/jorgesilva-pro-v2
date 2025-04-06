@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@fontsource-variable/montserrat": "^5.0.17",
-    "@fontsource/merriweather": "^5.0.8",
+    "@fontsource/merriweather": "^5.2.6",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "bootswatch": "^5.3.3",
