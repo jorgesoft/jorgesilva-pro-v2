@@ -24,7 +24,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
       <div className="container">
         <Link className="navbar-brand" to="/">
           jorgesilva.pro
@@ -42,6 +42,11 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <Link className="nav-link" to="/servicios-latam">
+                Servicios LATAM
+              </Link>
+            </li>
             <li className="nav-item">
               <Link className="nav-link" to="/blog">
                 Blog

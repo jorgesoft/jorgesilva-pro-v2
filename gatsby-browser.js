@@ -11,5 +11,5 @@ import "./src/global.css"
 import "prismjs/themes/prism.css"
 
 // Boostrap and Bootswatch theme  
-import "bootswatch/dist/lux/bootstrap.min.css";
+import "bootswatch/dist/brite/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
