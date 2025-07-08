@@ -11,7 +11,7 @@ const HeroSeguridad = () => (
         tu infraestructura desde el internet. Analizamos tu dominio para identificar vulnerabilidades externas, de forma segura y sin afectar tus servicios.
       </p>
       <p className="lead mt-3 mb-4">
-        Mira un ejemplo de la evaluación o contáctame para obtener el tuyo.
+        Programe tu evaluación o <a href="https://www.linkedin.com/in/jorgeecsilva/" target="_blank" className="text-decoration-underline">contáctame</a> para mas detalles.
       </p>
       <p className="text-muted">
         Al agendar una evaluación aceptas nuestros {" "}
