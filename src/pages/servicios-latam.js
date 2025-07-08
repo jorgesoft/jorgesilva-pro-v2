@@ -4,6 +4,7 @@ import Seo from "../components/seo";
 
 import HeroSeguridad from "../components/serviciosLatam/HeroSeguridad";
 import InformeInfo from "../components/serviciosLatam/InformeInfo";
+import EvaluacionSegura from "../components/serviciosLatam/EvaluacionSegura";
 import ComoFunciona from "../components/serviciosLatam/ComoFunciona";
 import SobreMi from "../components/serviciosLatam/SobreMi";
 import TerminosBanner from "../components/serviciosLatam/TerminosBanner";
@@ -17,6 +18,9 @@ const ServiciosLatam = () => {
       <div className="divider"></div>
 
       <InformeInfo />
+      <div className="divider"></div>
+
+      <EvaluacionSegura />
       <div className="divider"></div>
 
       <ComoFunciona />
