@@ -8,13 +8,13 @@ const HeroSeguridad = () => (
       </h1>
       <p className="lead mt-3 mb-4">
         Protege tu empresa con una evaluación que revela cómo un atacante vería
-        tu infraestructura desde el internet. Encuentra vulnerabilidades y oportunidades para mejorar tu seguridad.
+        tu infraestructura desde el internet. Analizamos tu dominio para identificar vulnerabilidades externas, de forma segura y sin afectar tus servicios.
       </p>
       <p className="lead mt-3 mb-4">
         Mira un ejemplo de la evaluación o contáctame para obtener el tuyo.
       </p>
       <p className="text-muted">
-        Aplican{" "}
+        Al agendar una evaluación aceptas nuestros {" "}
         <a
           href="#modalTerminos"
           data-bs-toggle="modal"
@@ -25,17 +25,18 @@ const HeroSeguridad = () => (
       </p>
       <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-3">
         <a
-          href="https://jorgecarrilloitgmail-my.sharepoint.com/:f:/g/personal/contact_jorgesilva_pro/Eh1lTWG6PVpKjOapbOYYy1QB-cwMGYvDaBOAMf1X21ia7w?e=Wte4Ov"
+          href="https://cal.com/jorgesilva.pro/evaluacion-de-seguridad-externa"
           target="_blank"
           className="btn btn-primary btn-lg px-4 me-sm-3"
         >
-          Ejemplo de resultados
+          Programe su evaluación
         </a>
         <a
-          href="mailto:contacto@jorgesilva.pro"
+          href="https://jorgecarrilloitgmail-my.sharepoint.com/:f:/g/personal/contact_jorgesilva_pro/Eh1lTWG6PVpKjOapbOYYy1QB-cwMGYvDaBOAMf1X21ia7w?e=Wte4Ov"
+          target="_blank"
           className="btn btn-light btn-lg px-4"
         >
-          Contáctame
+          Ejemplo de resultados
         </a>
       </div>
     </div>

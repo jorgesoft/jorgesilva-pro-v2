@@ -28,7 +28,7 @@ const SobreMi = () => (
         href="https://www.linkedin.com/in/jorgeecsilva/"
         target="_blank"
         rel="noopener noreferrer"
-        className="btn btn-outline-primary"
+        className="btn btn-primary"
       >
         Ver perfil en LinkedIn
       </a>

@@ -8,19 +8,25 @@ const ComoFunciona = () => (
         <div className="col-md-10">
           <ol className="list-group list-group-numbered">
             <li className="list-group-item py-3">
-              <strong>Contáctame:</strong> Por ahora es el metodo de iniciar la evaluación.
+              <strong>Agenda una entrevista:</strong> Conocemos tu empresa y autorizas la evaluación externa.
             </li>
             <li className="list-group-item py-3">
-              <strong>Agendar entrevista:</strong> Para saber mas de tu empresa y hablar de nuestros servicios.
+              <strong>Exploramos tu dominio:</strong> Identificamos subdominios públicos usando registros SSL.
             </li>
             <li className="list-group-item py-3">
-              <strong>Ejecutamos el análisis:</strong> Usando herramientas automáticas de código abierto.
+              <strong>Escaneamos servicios expuestos:</strong> Detectamos puertos abiertos y servicios con Nmap.
             </li>
             <li className="list-group-item py-3">
-              <strong>Aplicamos IA:</strong> Para ayudarte a interpretar los hallazgos en lenguaje sencillo.
+              <strong>Analizamos tu sitio web:</strong> Identificamos tecnologías con WhatWeb.
             </li>
             <li className="list-group-item py-3">
-              <strong>Te enviamos el informe:</strong> En un archivo PDF por correo electrónico en menos de 48 horas.
+              <strong>Revisamos filtraciones de datos:</strong> Buscamos correos y contraseñas expuestos con Hunter.io y HIBP.
+            </li>
+            <li className="list-group-item py-3">
+              <strong>Aplicamos IA de Microsoft:</strong> Usamos <a href="https://azure.microsoft.com/en-us/products/ai-foundry" target="_blank" rel="noopener noreferrer">Azure AI Foundry</a> para interpretar los hallazgos con lenguaje claro.
+            </li>
+            <li className="list-group-item py-3">
+              <strong>Recibes el informe final:</strong> Incluye hallazgos, puntuación de riesgo y plan de acción personalizado.
             </li>
           </ol>
         </div>

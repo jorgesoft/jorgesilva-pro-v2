@@ -14,9 +14,16 @@ const TerminosBanner = () => (
             Términos y Condiciones
           </a>.
         </p>
-        <p className="mb-0">
+        <p className="mb-4">
           Este servicio no realiza pruebas invasivas y se basa únicamente en análisis de fuentes públicas.
         </p>
+        <a
+          href="https://cal.com/jorgesilva.pro/evaluacion-de-seguridad-externa"
+          target="_blank"
+          className="btn btn-primary btn-lg"
+        >
+          Programe su evaluación
+        </a>
       </div>
     </section>
 
