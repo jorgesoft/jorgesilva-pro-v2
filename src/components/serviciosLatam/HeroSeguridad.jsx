@@ -3,9 +3,9 @@ import React from "react";
 const HeroSeguridad = () => (
   <section className="py-5">
     <div className="container text-center">
-      <h1 className="display-5 fw-bold">
-        Evaluación de Seguridad Externa para Empresas en América Latina
-      </h1>
+      <h2 className="display-5 fw-bold">
+        Evaluación de Seguridad Externa y Consultorías para Empresas en América Latina
+      </h2>
       <p className="lead mt-3 mb-4">
         Protege tu empresa con una evaluación que revela cómo un atacante vería
         tu infraestructura desde el internet. Analizamos tu dominio para identificar vulnerabilidades externas, de forma segura y sin afectar tus servicios.
@@ -29,7 +29,7 @@ const HeroSeguridad = () => (
           target="_blank"
           className="btn btn-primary btn-lg px-4 me-sm-3"
         >
-          Programe su evaluación
+          Agendar evaluación o consulta
         </a>
         <a
           href="https://jorgecarrilloitgmail-my.sharepoint.com/:f:/g/personal/contact_jorgesilva_pro/Eh1lTWG6PVpKjOapbOYYy1QB-cwMGYvDaBOAMf1X21ia7w?e=Wte4Ov"

@@ -22,7 +22,7 @@ const TerminosBanner = () => (
           target="_blank"
           className="btn btn-primary btn-lg"
         >
-          Programe su evaluación
+          Agendar evaluación o consulta
         </a>
       </div>
     </section>
