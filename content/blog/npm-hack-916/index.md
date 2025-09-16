@@ -40,6 +40,8 @@ Según reportes, más de **180 paquetes** fueron comprometidos. Ejemplos:
 
 ## Puntos Clave de Remediación
 
+Sugerencias sobre soluciones a implementar. Asegúrese de que funcionen correctamente en su entorno antes de implementarlas.
+
 ### 1. En desarrollo local
 
 1. Limpia la caché de npm:
@@ -47,14 +49,7 @@ Según reportes, más de **180 paquetes** fueron comprometidos. Ejemplos:
    ```bash
    npm cache clean --force
    ```
-2. Elimina dependencias y lockfiles:
-
-   ```bash
-   rm -rf node_modules package-lock.json
-   npm install
-   ```
-3. Usa lockfiles (`package-lock.json` o `yarn.lock`) para fijar versiones.
-4. Ejecuta auditorías:
+2. Ejecuta auditorías:
 
    ```bash
    npm audit
@@ -70,14 +65,18 @@ Según reportes, más de **180 paquetes** fueron comprometidos. Ejemplos:
    ```
 3. Revisa y rota secretos en pipelines.
 4. Monitorea logs en busca de actividad sospechosa.
-5. Integra herramientas de escaneo (Snyk, Dependabot, Aikido SafeChain).
 
 ## Controles a Implementar
 
 * Usar gestores de secretos (Vault, AWS Secrets Manager).
+* Integra herramientas de escaneo (Snyk, Dependabot, Aikido SafeChain).
 * Activar MFA en npm, GitHub y servicios clave.
 * Aplicar revisiones de seguridad continuas a dependencias.
 * Capacitar a equipos sobre riesgos de la cadena de suministro.
+
+## Indicadores de compromiso
+- bundle.js SHA-256: 46faab8ab153fae6e80e7cca38eab363075bb524edd79e42269217a083628f09
+- URL de exfiltración: hxxps://webhook[.]site/bb8ca5f6-4175-45d2-b042-fc9ebb8170b7
 
 ## Fuentes y Publicaciones Adicionales
 
