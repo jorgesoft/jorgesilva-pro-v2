@@ -1,6 +1,6 @@
 ---
 
-title: "Gusano automatizado en npm: nuevo ataque y cómo protegerte"
+title: "Shai-Hulud: Gusano automatizado en npm"
 date: "2025-09-16T12:12:03.284Z"
 description: "Un repaso del nuevo ataque tipo gusano en npm, sus riesgos y pasos concretos de mitigación."
 featuredImage: "./worm.png"
@@ -21,6 +21,7 @@ Un ataque masivo contra npm ha comprometido múltiples paquetes, afectando a des
 * Roba secretos y credenciales de entorno (API keys, SSH tokens, GitHub tokens).
 * Filtra repositorios privados a actores externos.
 * Intenta crear *GitHub Actions* maliciosas para propagarse.
+* Crea repositorios llamados "Shai-Hulud" para exponer secretos.
 * Se disemina automáticamente mediante dependencias npm infectadas.
 
 ## Impacto Potencial
@@ -75,8 +76,9 @@ Sugerencias sobre soluciones a implementar. Asegúrese de que funcionen correcta
 * Capacitar a equipos sobre riesgos de la cadena de suministro.
 
 ## Indicadores de compromiso
-- bundle.js SHA-256: 46faab8ab153fae6e80e7cca38eab363075bb524edd79e42269217a083628f09
-- URL de exfiltración: hxxps://webhook[.]site/bb8ca5f6-4175-45d2-b042-fc9ebb8170b7
+- bundle.js SHA-256: `46faab8ab153fae6e80e7cca38eab363075bb524edd79e42269217a083628f09`
+- URL de exfiltración: `hxxps://webhook[.]site/bb8ca5f6-4175-45d2-b042-fc9ebb8170b7`
+- Repositorios llamados `Shai-Hulud`
 
 ## Fuentes y Publicaciones Adicionales
 
