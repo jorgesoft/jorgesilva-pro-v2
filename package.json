@@ -43,6 +43,9 @@
     "type": "git",
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
+  "overrides": {
+    "serialize-javascript": "^7.0.3"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
